@@ -3,9 +3,39 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+
+label, input, button {
+  width: 150px;
+  padding: .2em .5em;
+  margin: .25em 0;
+  text-align: center;
+}
+
+.search label {
+  padding: 0;
+}
+
+.search button {
+  color: inherit;
+  background-color: inherit;
+  border: 3px solid white;
+  margin-top: .75em;
+}
+
+.videoTitle:focus, .videoImage:focus {
+  outline: 5px solid red;
 }

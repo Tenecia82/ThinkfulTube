@@ -1,5 +1,5 @@
 'use strict';
-const API_KEY = '';
+const API_KEY = 'AIzaSyD6cf-omswHf7g5AL3vWr7dqTubhcttLkY';
 
 
 const store = {
@@ -44,6 +44,8 @@ const render = function() {
     return generateVideoItemHtml(vid);
   });
   $('.results').html(videoItems);
+
+  $('.results').prop('hidden', false);
 };
 
 const handleFormSubmit = function() {

@@ -11,15 +11,18 @@
     <title>Thinkful Tube</title>
 </head>
 <body>
-   <h1>Youtube Api</h1>
-    <form>
+   <h1>Youtube Video Search</h1>
+    <form role="search">
         <input type="text" id="search-term" />
         <input type="submit" value="Go" />
     </form>
-    <ul class='results'></ul>
-             <footer role="contentinfo" class="footer">
-               </footer>
+    <main role="main" aria-live="assertive" hidden>
+        <ul class='results'></ul>
 
+    </main>
+    <footer role="contentinfo" class="footer">
+    </footer>
+            
 
                <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                crossorigin="anonymous"></script>
